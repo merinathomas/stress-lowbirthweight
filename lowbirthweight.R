@@ -1,6 +1,6 @@
 #load dplyr
 library(dplyr)
-#if spatial functions are used (i.e., st_as_sf(...))
+##if spatial functions are used (i.e., st_as_sf(...))
 library(sf) 
 library(ggplot2)
 
