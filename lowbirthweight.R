@@ -1,10 +1,12 @@
 #load dplyr
 library(dplyr)
-library(sf) #if spatial functions are used (i.e., st_as_sf(...))
+#if spatial functions are used (i.e., st_as_sf(...))
+library(sf) 
 library(ggplot2)
 
 
 ##should filtering happen before doing assiging rnorm stress values?
+
 
 #add new column called stresslevelrace (using rnorm)
 complete_15_45_fem_sam_age_years_40k_2018_06_24 <- complete_15_45_fem_sam_age_years_40k_2018_06_24 %>%
